@@ -35,7 +35,15 @@ IMPORTANT : since we are working with tomcat you have to creat your web-applicat
 3°) in this "dossier" WEB-INF create a "dossier" named sr and a "dossier" named classes . 
 4°) In sr create a "dossier" named write(because of the package in SimpleWrite4 .copy SimpleWrite4.java in the "dossier" named write .
 5°)copy the file web.xml in folder WEB-INF .
+6°)Modify the com-port with your's in SimpleWrite4 .
+7°) create the bat file with c.bat , execute c.bat to get SimpleWrite4.class in the folder classes .
 
+now your web application is ready , put it in the folder webapps of tomcat .
+******************************************************
+8°) create an AVR project with the remainding files , build and load on Atmega16 .
+9°) Connect 4 or 3 or 2 or 1 sureElectronic 0832 pannels as indicated in the defines .
+9 open the web browser , goto localhost:8080/atmega , write a message of length 42 caracters in the JOPtion.Input message and click OK and your message will be scrolling on the pannels .
+10°) if you have a dyndns address , send messages to your pannels from evry where .
 
 
 
