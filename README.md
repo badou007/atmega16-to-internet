@@ -29,12 +29,12 @@ witch is sending the message (client) , while jsp gets the serial port of the co
 
 ****************************
 
-IMPORTANT : since we are working with tomcat you have to creat your web-application in the following :
-1°) create a "dossier" named atmega .
-2°) In this dossier atmega create a dossier namer WEB-INF : copy the two jsp files in this folder .
-3°) in this "dossier" WEB-INF create a "dossier" named sr and a "dossier" named classes . 
-4°) In sr create a "dossier" named write(because of the package in SimpleWrite4 .copy SimpleWrite4.java in the "dossier" named write .
-5°)copy the file web.xml in folder WEB-INF .
+IMPORTANT : since we are working with tomcat you have to creat your web-application in the following :<br>
+1°) create a "dossier" named atmega .<br>
+2°) In this dossier atmega create a dossier namer WEB-INF : copy the two jsp files in this folder .<br>
+3°) in this "dossier" WEB-INF create a "dossier" named sr and a "dossier" named classes . <br>
+4°) In sr create a "dossier" named write(because of the package in SimpleWrite4 .copy SimpleWrite4.java in the "dossier" named write .<br>
+5°)copy the file web.xml in folder WEB-INF .<br>
 6°)Modify the com-port with your's in SimpleWrite4 .
 7°) create the bat file with c.bat , execute c.bat to get SimpleWrite4.class in the folder classes .
 
