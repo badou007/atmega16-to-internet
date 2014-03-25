@@ -30,8 +30,9 @@ witch is sending the message (client) , while jsp gets the serial port of the co
 ****************************<br>
 
 IMPORTANT : since we are working with tomcat you have to creat your web-application in the following :<br>
-1°) create a "dossier" named atmega .<br>
-2°) In this dossier atmega create a dossier namer WEB-INF : copy the two jsp files in this folder .<br>
+1°) create a "dossier" named atmega .
+<br>copy the two jsp files in the folder atmega.<br>
+2°) In this folder atmega create a folder named WEB-INF : 
 3°) in this "dossier" WEB-INF create a "dossier" named sr and a "dossier" named classes . <br>
 4°) In sr create a "dossier" named write(because of the package in SimpleWrite4) .<br>
 copy SimpleWrite4.java in the "dossier" named write .<br>
@@ -46,7 +47,7 @@ now your web application is ready , put it in the folder webapps of tomcat .<br>
 9 open the web browser , goto localhost:8080/atmega , write a message of length 42 caracters in the JOPtion.Input message and click OK and your message will be scrolling on the pannels .<br>
 10°) if you have a dyndns address , send messages to your pannels from evry where .<br>
 
-<font color=red>Remark important :</font><br>
+Remark important :</font><br>
 I use JY-MCU blootooth module to have serial COLMPort ; If you don't have serial comport, even if you have , you can use JY-MCU module bought in ebay to have a sérial com port and connect to the serial com port of the module(port sortant in french = output port ?)<br>
 **************************<br>
 
