@@ -48,7 +48,8 @@ now your web application is ready , put it in the folder webapps of tomcat .<br>
 10°) if you have a dyndns address , send messages to your pannels from evry where .<br>
 
 Remark important :</font><br>
-I use JY-MCU blootooth module to have serial COLMPort ; If you don't have serial comport, even if you have , you can use JY-MCU module bought in ebay to have a sérial com port and connect to the serial com port of the module(port sortant in french = output port ?)<br>
+I use JY-MCU blootooth module to have serial COMPort ; If you don't have serial comport, even if you have , you can use JY-MCU module bought in ebay to have a sérial com port and connect to the serial com port of the module(port sortant in french = output port ?)<br>
+the key for jy-mcu is 1234 is what you enter wen asked.
 **************************<br>
 
 Result will be seen in youtube .
