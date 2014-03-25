@@ -4,10 +4,8 @@
 
 <%! String messageString ; %>
 
-<% messageString=JOptionPane.showInputDialog(null,"entrer un message à afficher"); %>
-<%! SimpleWrite4 sw ;  int a,j,k,b;
-
-%>
+<% messageString=JOptionPane.showInputDialog(null,"entrer un message de 42 caracteres à afficher"); %>
+<%! SimpleWrite4 sw ; %>
 
 <% out.println("<br>le message à afficher est : " + messageString);%>
 <% sw=new SimpleWrite4("COM5",messageString);  %>
