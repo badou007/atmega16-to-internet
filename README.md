@@ -35,7 +35,7 @@ IMPORTANT : since we are working with tomcat you have to creat your web-applicat
 3°) in this "dossier" WEB-INF create a "dossier" named sr and a "dossier" named classes . <br>
 4°) In sr create a "dossier" named write(because of the package in SimpleWrite4 .copy SimpleWrite4.java in the "dossier" named write .<br>
 5°)copy the file web.xml in folder WEB-INF .<br>
-6°)Modify the com-port with your's in SimpleWrite4 .
+6°)Modify the com-port with your's in SimpleWrite4 .<br>
 7°) create the bat file with c.bat , execute c.bat to get SimpleWrite4.class in the folder classes .<br>
 
 now your web application is ready , put it in the folder webapps of tomcat .<br>
