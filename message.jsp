@@ -9,3 +9,5 @@
 
 <% out.println("<br>le message à afficher est : " + messageString);%>
 <% sw=new SimpleWrite4("COM5",messageString);  %>
+
+<!-- change COM5 with your port -->
