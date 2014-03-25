@@ -26,3 +26,17 @@ from every where !!
 
 this don't work with VBA with my experience : vba gets the serial port of the computer 
 witch is sending the message (client) , while jsp gets the serial port of the computer hosting tomcat(server) .
+
+****************************
+
+IMPORTANT : since we are working with tomcat you have to creat your web-application in the following :
+1°) create a "dossier" named atmega .
+2°) In this dossier atmega create a dossier namer WEB-INF : copy the two jsp files in this folder .
+3°) in this "dossier" WEB-INF create a "dossier" named sr and a "dossier" named classes . 
+4°) In sr create a "dossier" named Write(because of the package in SimpleWrite4 .copy SimpleWrite4.java in the "dossier" named write .
+
+
+
+
+
+
