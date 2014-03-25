@@ -46,8 +46,11 @@ now your web application is ready , put it in the folder webapps of tomcat .<br>
 9 open the web browser , goto localhost:8080/atmega , write a message of length 42 caracters in the JOPtion.Input message and click OK and your message will be scrolling on the pannels .<br>
 10°) if you have a dyndns address , send messages to your pannels from evry where .<br>
 
+Remark important :
+I use JY-MCU blootooth module to have serial COLMPort ; If you don't have serial comport, even if you have , you can use JY-MCU module bought in ebay to have a sérial com port and connect to the serial com port of the module(port sortant in french = output port ?)
+**************************<br>
 
-
+Result will be seen in youtube .
 
 
 
