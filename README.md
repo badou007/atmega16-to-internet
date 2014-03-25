@@ -24,10 +24,10 @@ If you have dyndns adress and can connect to your computer with the dyndns name 
 from every where !!
 
 
-this don't work with VBA with my experience : vba gets the serial port of the computer 
-witch is sending the message (client) , while jsp gets the serial port of the computer hosting tomcat(server) .
+this don't work with VBA with my experience : vba gets the serial port of the computer <br>
+witch is sending the message (client) , while jsp gets the serial port of the computer hosting tomcat(server) .<br>
 
-****************************
+****************************<br>
 
 IMPORTANT : since we are working with tomcat you have to creat your web-application in the following :<br>
 1°) create a "dossier" named atmega .<br>
@@ -36,14 +36,14 @@ IMPORTANT : since we are working with tomcat you have to creat your web-applicat
 4°) In sr create a "dossier" named write(because of the package in SimpleWrite4 .copy SimpleWrite4.java in the "dossier" named write .<br>
 5°)copy the file web.xml in folder WEB-INF .<br>
 6°)Modify the com-port with your's in SimpleWrite4 .
-7°) create the bat file with c.bat , execute c.bat to get SimpleWrite4.class in the folder classes .
+7°) create the bat file with c.bat , execute c.bat to get SimpleWrite4.class in the folder classes .<br>
 
-now your web application is ready , put it in the folder webapps of tomcat .
-******************************************************
-8°) create an AVR project with the remainding files , build and load on Atmega16 .
-9°) Connect 4 or 3 or 2 or 1 sureElectronic 0832 pannels as indicated in the defines .
-9 open the web browser , goto localhost:8080/atmega , write a message of length 42 caracters in the JOPtion.Input message and click OK and your message will be scrolling on the pannels .
-10°) if you have a dyndns address , send messages to your pannels from evry where .
+now your web application is ready , put it in the folder webapps of tomcat .<br>
+******************************************************<br>
+8°) create an AVR project with the remainding files , build and load on Atmega16 .<br>
+9°) Connect 4 or 3 or 2 or 1 sureElectronic 0832 pannels as indicated in the defines .<br>
+9 open the web browser , goto localhost:8080/atmega , write a message of length 42 caracters in the JOPtion.Input message and click OK and your message will be scrolling on the pannels .<br>
+10°) if you have a dyndns address , send messages to your pannels from evry where .<br>
 
 
 
