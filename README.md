@@ -52,7 +52,7 @@ I use JY-MCU blootooth module to have serial COMPort ; If you don't have serial 
 the key for jy-mcu is 1234 is what you enter wen asked.
 **************************<br>
 
-Result will be seen in youtube .
+Result will be seen in youtube at http://youtu.be/nTdpnXFoyJ0
 
 
 
